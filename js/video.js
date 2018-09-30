@@ -23,6 +23,8 @@ function init(){
 	/*
 	videoSetting.addEventListener('click',settings,false);*/
 	fullscreen.addEventListener('click',fullScreen,false);
+	
+	volumeSlider.value = 100;
 }
 
 function playOrPause(){
